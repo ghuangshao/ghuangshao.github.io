@@ -1,52 +1,606 @@
 <!DOCTYPE html>
-<html>
-  <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
-  <meta http-equiv="content-type" content="text/html; charset=utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#222">
+<meta name="generator" content="Hexo 4.2.1">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+<link rel="stylesheet" href="/lib/font-awesome/css/all.min.css">
   
-  <title>Ghuang的个人网站 - 子曰：一失足成千古恨</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
-  
-  <meta name="keywords" content=生活,博客,前端,游戏>
-  
-    <meta name="description" content="个人博客，主要用来存放一些文字，随缘相见">
-  
-  
-    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?v=1.02">
-  
-  
-    <link rel="alternate" href="/atom.xml " title="Ghuang的个人网站" type="application/atom+xml">
+  <link rel="stylesheet" href="/lib/animate-css/animate.min.css">
+
+<script class="hexo-configurations">
+    var NexT = window.NexT || {};
+    var CONFIG = {"hostname":"yoursite.com","root":"/","scheme":"Pisces","version":"8.0.0-rc.4","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":false,"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}}};
+  </script>
+
+  <meta name="description" content="个人博客，主要用来存放一些文字，随缘相见">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Ghuang的个人网站">
+<meta property="og:url" content="http://yoursite.com/index.html">
+<meta property="og:site_name" content="Ghuang的个人网站">
+<meta property="og:description" content="个人博客，主要用来存放一些文字，随缘相见">
+<meta property="og:locale" content="zh_CN">
+<meta property="article:author" content="ghuang">
+<meta property="article:tag" content="小说">
+<meta property="article:tag" content="笔记">
+<meta property="article:tag" content="评论">
+<meta property="article:tag" content="随笔">
+<meta name="twitter:card" content="summary">
+
+<link rel="canonical" href="http://yoursite.com/">
+
+
+<script class="page-configurations">
+  // https://hexo.io/docs/variables.html
+  CONFIG.page = {
+    sidebar: "",
+    isHome : true,
+    isPost : false,
+    lang   : 'zh-CN'
+  };
+</script>
+
+  <title>Ghuang的个人网站</title>
   
 
-  
-<link rel="stylesheet" href="/css/style.css">
 
-<meta name="generator" content="Hexo 4.2.1"></head>
-  <body>
-    <div class="container">
-      <div class="home">
-  <div class="info">
-    <a href="/" class="logo">Ghuang的个人网站</a>
-    <div class="subtitle">子曰：一失足成千古恨</div>
-    <div class="sns">
-      
-          <a href="/archives">Blog</a>
-      
-          <a href="https://github.com/chunqiuyiyu" target="_blank" rel="noopener">GitHub</a>
-      
-          <a href="https://www.v2ex.com/member/chunqiuyiyu" target="_blank" rel="noopener">V2EX</a>
-      
+
+
+
+
+  <noscript>
+  <style>
+  body { margin-top: 2rem; }
+
+  .use-motion .menu-item,
+  .use-motion .sidebar,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-header {
+    visibility: visible;
+  }
+
+  .use-motion .header,
+  .use-motion .site-brand-container .toggle,
+  .use-motion .footer { opacity: initial; }
+
+  .use-motion .site-title,
+  .use-motion .site-subtitle,
+  .use-motion .custom-logo-image {
+    opacity: initial;
+    top: initial;
+  }
+
+  .use-motion .logo-line {
+    transform: scaleX(1);
+  }
+
+  .search-pop-overlay, .sidebar-nav { display: none; }
+  .sidebar-panel { display: block; }
+  </style>
+</noscript>
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage">
+  <div class="container use-motion">
+    <div class="headband"></div>
+
+    <main class="main">
+      <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+        <div class="header-inner"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏">
+        <span class="toggle-line toggle-line-first"></span>
+        <span class="toggle-line toggle-line-middle"></span>
+        <span class="toggle-line toggle-line-last"></span>
     </div>
-    <footer>
-  &copy; 2020
-  <span class="author">
-    ghuang
-  </span>
-</footer>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <i class="logo-line"></i>
+      <h1 class="site-title">Ghuang的个人网站</h1>
+      <i class="logo-line"></i>
+    </a>
+      <p class="site-subtitle" itemprop="description">子曰：一失足成千古恨</p>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger">
+    </div>
   </div>
 </div>
+
+
+
+<nav class="site-nav">
+  <ul id="menu" class="main-menu menu">
+        <li class="menu-item menu-item-home">
+
+    <a href="/" rel="section"><i class="home fa-fw"></i>首页</a>
+
+  </li>
+        <li class="menu-item menu-item-categories">
+
+    <a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>分类</a>
+
+  </li>
+        <li class="menu-item menu-item-archives">
+
+    <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档</a>
+
+  </li>
+  </ul>
+</nav>
+
+
+
+
+</div>
+          
+  
+  <div class="toggle sidebar-toggle">
+    <span class="toggle-line toggle-line-first"></span>
+    <span class="toggle-line toggle-line-middle"></span>
+    <span class="toggle-line toggle-line-last"></span>
+  </div>
+
+  <aside class="sidebar">
+
+    <div class="sidebar-inner sidebar-overview-active">
+      <ul class="sidebar-nav">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <!--noindex-->
+      <section class="post-toc-wrap sidebar-panel">
+      </section>
+      <!--/noindex-->
+
+      <section class="site-overview-wrap sidebar-panel">
+        <div class="site-author animated" itemprop="author" itemscope itemtype="http://schema.org/Person">
+  <p class="site-author-name" itemprop="name">ghuang</p>
+  <div class="site-description" itemprop="description">个人博客，主要用来存放一些文字，随缘相见</div>
+</div>
+<div class="site-state-wrap animated">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+          <a href="/archives/">
+        
+          <span class="site-state-item-count">4</span>
+          <span class="site-state-item-name">日志</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+            <a href="/categories/">
+          
+        <span class="site-state-item-count">2</span>
+        <span class="site-state-item-name">分类</span></a>
+      </div>
+      <div class="site-state-item site-state-tags">
+            <a href="/tags/">
+        <span class="site-state-item-count">2</span>
+        <span class="site-state-item-name">标签</span></a>
+      </div>
+  </nav>
+</div>
+  <div class="cc-license animated" itemprop="license">
+    <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/zh-CN" class="cc-opacity" rel="noopener" target="_blank"><img src="/images/cc-by-nc-sa.svg" alt="Creative Commons"></a>
+  </div>
+
+
+
+      </section>
     </div>
-  </body>
+  </aside>
+  <div id="sidebar-dimmer"></div>
+
+
+      </header>
+
+      
+  <div class="back-to-top">
+    <i class="fa fa-arrow-up"></i>
+    <span>0%</span>
+  </div>
+
+<noscript>
+  <div id="noscript-warning">Theme NexT works best with JavaScript enabled</div>
+</noscript>
+
+
+      <div class="main-inner">
+        
+
+        <div class="content index posts-expand">
+          
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2020/07/13/%E6%96%B0%E5%BB%BA%E7%A9%BA%E6%96%87%E4%BB%B6/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="ghuang">
+      <meta itemprop="description" content="个人博客，主要用来存放一些文字，随缘相见">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Ghuang的个人网站">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2020/07/13/%E6%96%B0%E5%BB%BA%E7%A9%BA%E6%96%87%E4%BB%B6/" class="post-title-link" itemprop="url">光华测试</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+              
+
+              <time title="创建时间：2020-07-13 10:45:58 / 修改时间：10:45:39" itemprop="dateCreated datePublished" datetime="2020-07-13T10:45:58+08:00">2020-07-13</time>
+            </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/%E5%B0%8F%E8%AF%B4/" itemprop="url" rel="index"><span itemprop="name">小说</span></a>
+                </span>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2020/07/13/%E5%BE%90%E5%86%B0/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="ghuang">
+      <meta itemprop="description" content="个人博客，主要用来存放一些文字，随缘相见">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Ghuang的个人网站">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2020/07/13/%E5%BE%90%E5%86%B0/" class="post-title-link" itemprop="url">徐冰de 故事</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+              
+
+              <time title="创建时间：2020-07-13 10:36:03 / 修改时间：10:41:53" itemprop="dateCreated datePublished" datetime="2020-07-13T10:36:03+08:00">2020-07-13</time>
+            </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/%E7%AC%94%E8%AE%B0/" itemprop="url" rel="index"><span itemprop="name">笔记</span></a>
+                </span>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2020/07/13/%E6%9D%8E%E6%99%AF%E6%B9%96%EF%BC%9A%E5%85%89%E9%80%8F%E8%BF%87%E6%9D%A5%E7%9A%84%E5%9C%B0%E6%96%B9/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="ghuang">
+      <meta itemprop="description" content="个人博客，主要用来存放一些文字，随缘相见">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Ghuang的个人网站">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2020/07/13/%E6%9D%8E%E6%99%AF%E6%B9%96%EF%BC%9A%E5%85%89%E9%80%8F%E8%BF%87%E6%9D%A5%E7%9A%84%E5%9C%B0%E6%96%B9/" class="post-title-link" itemprop="url">李景湖：光透过来的地方</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+
+              <time title="创建时间：2020-07-13 09:53:55" itemprop="dateCreated datePublished" datetime="2020-07-13T09:53:55+08:00">2020-07-13</time>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <hr>
+<p>title: 李景湖：的地方<br>categories: 评论</p>
+<hr>
+<p>日常生活中的物与人，是李景湖多年来艺术创作的源泉与母题。正如恩格斯所言，物的关系背后是人与人之间的关系，而在李景湖的作品中，人与人之间的关系也往往以物的形式呈现。相较以往以个体化表达去间接回应社会变迁的方式，在《陪伴》（2019）、《爱人》（2018）与《基础#1》（2019）这三件作品中，李景湖更多地采用一种旁观者的视角，关注的对象再次回归到人本身，以回溯性的目光审视同时代人的相遇或离散，爱恋与失意，并用诗性的形式语言予以再次呈现。这种生发于日常生活的诗意并非是对现实的刻意美化或逃避，而是对其多重维度的集中表达，以期在观众与作品、作品与社会之间引起最大程度的共振。</p>
+          <!--noindex-->
+            <div class="post-button">
+              <a class="btn" href="/2020/07/13/%E6%9D%8E%E6%99%AF%E6%B9%96%EF%BC%9A%E5%85%89%E9%80%8F%E8%BF%87%E6%9D%A5%E7%9A%84%E5%9C%B0%E6%96%B9/#more" rel="contents">
+                阅读全文 &raquo;
+              </a>
+            </div>
+          <!--/noindex-->
+        
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2020/07/13/La%20femme%20est%20la%20femme%E2%80%94%E2%80%94Leni%E7%9A%84%E6%B0%B4%E5%BD%A9%E7%94%BB/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="ghuang">
+      <meta itemprop="description" content="个人博客，主要用来存放一些文字，随缘相见">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Ghuang的个人网站">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2020/07/13/La%20femme%20est%20la%20femme%E2%80%94%E2%80%94Leni%E7%9A%84%E6%B0%B4%E5%BD%A9%E7%94%BB/" class="post-title-link" itemprop="url">La femme est la femme——Leni的水彩画</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+
+              <time title="创建时间：2020-07-13 09:50:40" itemprop="dateCreated datePublished" datetime="2020-07-13T09:50:40+08:00">2020-07-13</time>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <hr>
+<p>title: leni的水彩画<br>categories: 随笔<br>tags: ddd</p>
+<hr>
+<p>Leni是我女朋友，所以我来介绍她的画难免有沾亲带故的嫌疑，但是我喜欢。首先我要说她是个什么样的人，她是个女孩子，尽管日常我一般管她叫小伙子。她懒惰又爱折腾，她不爱洗澡但爱嫌弃别人邋遢，她温柔善良又在本质上是个暴躁老哥，她精神脆弱但三餐规律，尽管常有些小毛病，她的身体可以用健壮来形容，她是个铁杆猫猫党，但又喜欢狗、鸭子、兔子、小鸟、河马和长颈鹿…</p>
+<p>她从事绘画事业已经有些年头了，总共有十余件作品问世；她画过一匹水彩小马，后来找不到了，也许是活了跑到哪里去了，认真找应该能找到。据我所知，在小马丢失处不远，有一处郁郁葱葱的公园，那里经常跑着十来匹小马，前后腿之间拴着一段绳子——看来它们的主人是个谨慎的人。</p>
+<p>anti-male gaze  2019 30×40cm 纸面水彩 </p>
+<p>女孩与花 2019 30×40cm 纸本水彩</p>
+<p>女孩与桃 2019 30×40cm 纸本水彩<br>如果某一天我真的要给她办一个展览，名字应该叫做《一个女孩的美丽噩梦》。每一幅画都像是她经常做的那些梦，有的让她说梦话，有的让她尖叫着从梦中惊醒。她的画没有流派、风格可言，她就是她自己。作为一个直男，看她的画总会有一股芒刺在背的感觉。为什么呢？因为在我面前展开的是一个极其异类的世界，遵循着另一套规则与逻辑。面对它们，我难免像面对一个“疯女人”一样不知所措，仿佛一下子同时抵达了世界的尽头和冷酷仙境。</p>
+<p>粉衣女孩 年代不详 30×40cm 纸本水彩</p>
+<p>吃绿 年代不详 30×40cm 纸本水彩<br>她的画都是在讲述一个故事，就像她的诗一样——而她写作或者绘画时的焦虑也许是来自于这故事本身，它该有多少要浮在水面？那些要进行变形？这无异于将原本假装愈合的伤口再此撕开，去进行一番地质勘探。没有一个矿工从矿井里上来时身上不是沾满了煤灰的。让我们看看她从地下都给我带来了什么馈赠吧。</p>
+<p>欢迎仪式 年代不详 30×40cm 纸本水彩</p>
+<p>黑妇人 年代不详 30×40cm 纸本水彩<br>首先是一个女孩，或者是女人，那就意味着很多很多的女孩和很多很多的女人。也许在她们之间最大的区别就是面目是否清晰。然而在清晰者与模糊者之间，一种审视、询问的关系正在悄然上演。她们都默默无言，而一切又都在不言之中。妇人的脸被狠狠地涂黑，小女孩把头低下，面容隐藏在灰色的阴影里。一种黄色暴力地占据了面孔，像耶稣一般被钉在虚拟的十字架上，小女孩则一分为二，与镜中的自己展开交流。</p>
+<p>茧里的日子 年代不详 30×40cm 纸本水彩</p>
+<p>做梦的女孩 年代不详 30×40cm 纸本水彩<br>当女孩独自一人时，她总与植物相伴，她就是一株植物。植物像一道屏障，将她和外部世界暂时隔开，又像梦一样，从她的身体里生长出来。也许植物们也会做梦，然后画面中轻轻飘过一阵风。有些风是树做的梦。然而当她睡觉时，时钟滴答运作，天光无孔不入地窥视她的睡眠。她紧紧地裹住被子，像树根抓住土壤一样。而当她不做梦时，她选择用鲜花和火焰去面对这个世界。（也许那是一把刀子？）</p>
+<p>我和她 年代不详 30×40cm 纸本水彩<br>外部入侵者们已经将她逼到了角落，她唯一的朋友也选择离她而去。于是她只剩下了一把刀子和一束鲜花。在没有结果的反抗中，她决心刺杀一切侵犯者。而为了不让她的命运被重演，她也会刺杀母腹中的胎儿。在《我和她》中，她向着被钉死的基督表达了这种决心，然后进入到某种谈判之中。而对她的追捕始终没有尽头，他们面目模糊，一直潜入她的梦中。在梦中，她不停地向下沉、向下沉，然而地心深处的一道白光一下子将她刺醒</p>
+
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+
+  
+
+
+
+        </div>
+        
+
+<script>
+  window.addEventListener('tabs:register', () => {
+    let { activeClass } = CONFIG.comments;
+    if (CONFIG.comments.storage) {
+      activeClass = localStorage.getItem('comments_active') || activeClass;
+    }
+    if (activeClass) {
+      let activeTab = document.querySelector(`a[href="#comment-${activeClass}"]`);
+      if (activeTab) {
+        activeTab.click();
+      }
+    }
+  });
+  if (CONFIG.comments.storage) {
+    window.addEventListener('tabs:click', event => {
+      if (!event.target.matches('.tabs-comment .tab-content .tab-pane')) return;
+      let commentClass = event.target.classList[1];
+      localStorage.setItem('comments_active', commentClass);
+    });
+  }
+</script>
+
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-inner">
+        
+
+        
+
+<div class="copyright">
+  
+  &copy; 
+  <span itemprop="copyrightYear">2020</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">ghuang</span>
+</div>
+  <div class="powered-by">由 <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.js.org/pisces/" class="theme-link" rel="noopener" target="_blank">NexT.Pisces</a> 强力驱动
+  </div>
+
+        
+
+
+
+
+
+
+
+
+      </div>
+    </footer>
+  </div>
+
+  
+  <script src="/lib/anime.min.js"></script>
+
+<script src="/js/utils.js"></script>
+
+<script src="/js/motion.js"></script>
+
+
+<script src="/js/next-boot.js"></script>
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+</body>
 </html>
